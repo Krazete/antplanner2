@@ -95,6 +95,7 @@ a {
 .wc-cal-event {
 	font-size: 10px !important;
 	border: none;
+	box-sizing: border-box;
 }
 
 @media print {
@@ -112,5 +113,6 @@ a {
 	.wc-cal-event {
 		font-size: 10px !important;
 		border: 1px solid black;
+		box-sizing: border-box;
 	}
 }
